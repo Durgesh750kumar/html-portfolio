@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel form</title>
+    <style>
+        h1{
+              background-color: rgba(14, 168, 240, 0.445);
+    color:blue
+   
+            }
+            div{
+        background-color:rgb(181, 190, 181)
+    }
+    .styled {
+        position: relative;
+top: 4px; left: 250px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(20, 49, 212);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgb(118, 66, 238);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+        </style>
+</head>
+<body>
+    
+    <div>
+        <center><h1> Dream Vacations</h1>
+            A CRUISEONE COMPANY
+        <hr>
+            <h3>travelers(s) Information Form:</h3>
+           <h4>The information below is needed 10 quote and book your vacation and must MATCH <br>
+        EXACTLY as on your passport and goverment-issued ID. </h4>
+        </center>
+        <form action="from.php">
+            traveler<br>
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="middile name">
+            <input type="text" placeholder="Last name">
+            <br>
+            <br>
+            
+Date of Birth* <br>
+ <select name="Month" id="Month">
+    <option value="Month"> Month</option>
+    <option value="Month">january</option>
+    <option value="Month">May</option>
+        <option value="Month">March</option>
+            <option value="Month">october</option>
+ </select>
+ <select name="Day" id="Day">
+    <option value="Day"> Day</option>
+    <option value="Day">23</option>
+    <option value="Day">24</option>
+        <option value="Day">25</option>
+            <option value="Day">26</option>
+ </select>
+ <select name="year" id="year">
+    <option value="year"> Year</option>
+    <option value="year">2001</option>
+    <option value="year">2002</option>
+        <option value="year">2003</option>
+            <option value="year">2007</option>
+ </select>
+ <center >Gender*<br>
+<lebel for="Male">
+    <input type="radio" value="Male" name="Gender" id="Male">Male
+</lebel>
+<lebel for="Female">
+    <input type="radio" value="Female" name="Gender" id="Female">Female
+</lebel>
+ </center>
+ traveler*<br>
+ <select name="Area code" id="Area code">
+    <option value="Area code"> Area code</option>
+    <option value="Area code">91+</option>
+    <option value="Area code">119+</option>
+        <option value="Area code">98+</option>
+            <option value="Area code">24+</option>
+ </select>
+ <input type="text" placeholder="Mobile no."> <br> <br>
+traveler* <br>
+<textarea name="explain" id="explane" cols="30" rows="10" placeholder="Address"></textarea><br>
+
+<button class="fevorite styled" type="button">confirm<button>
+        </form>
+    </div>
+</body>
+</html>
